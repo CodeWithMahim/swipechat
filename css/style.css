@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.logo {
+  display: block;
+  margin: auto;
+  height: auto;
+  width: 70px;
+  margin-bottom: 40px;
+}
+
+body {
+  background-image: linear-gradient(#ffe8c5, #ff9800);
+    height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  background-color: #0000004a;
+  margin: auto;
+  height: 60vh;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  width: 24%;
+  padding: 10px;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.left {
+  background-color: white;
+  margin-top: 10px;
+  float: left;
+  clear: both;
+}
+.right {
+  background-color: #ceffa8;
+  margin-top: 10px;
+  float: right;
+  clear: both;
+}
+
+.right:hover{
+    background-color: #a7ff64;
+}
+.left:hover{
+    background-color: #e0e0e0;
+}
+
+#send{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 13px;
+}
+
+#sendImg{
+    height: auto;
+    width: 40px;
+    display: inline-block;
+}
+
+#messageInp{
+    height: 40px;
+    width: 731px;
+    border: none;
+    font-size: 18px;
+    padding-left: 14px;
+    border-radius: 21px;
+}
+
+.send{
+    text-align: center;
+}
+h1{
+  text-align: center;
+  font-family: Roboto;
+}
